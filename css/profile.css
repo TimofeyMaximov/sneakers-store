@@ -1,0 +1,109 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #F4F4F4;
+}
+
+header, footer{
+    background-color: #2C3E50;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 10px;
+    height: 100px;
+    width: 100%;
+}
+
+body, html {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    flex: 1;
+}
+
+nav ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+}
+
+nav ul li{
+    list-style: none;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: white;
+    padding: 15px;
+    font-size: 18px;
+}
+
+nav ul li a:hover{
+    color: #C0392B;
+}
+
+.avatar{
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    margin: 15px;
+    object-fit: cover;
+}
+
+.profile-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    flex-direction: column;
+    background-color: #ffffff;
+    color: #34495E ;
+}
+
+.profile-text{
+    font-weight: bold;
+}
+
+.buttons{
+    display: flex;
+    margin: 10px;
+}
+
+.profile-container button{
+    padding: 8px;
+    margin: 10px;
+    color: white;
+    border-radius: 5px;
+    border: none;
+}
+
+.first-button{
+    background-color: #3498DB;
+
+}
+
+.first-button:hover{
+    background-color: #26619b;
+    cursor: pointer;
+}
+
+.second-button{
+    background-color:#E74C3C;
+}
+
+
+.second-button:hover{
+    background-color: #C0392B;
+    cursor: pointer;
+}
+
